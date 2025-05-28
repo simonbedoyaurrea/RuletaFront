@@ -1,0 +1,29 @@
+.contenedor-fichas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #18110a78;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
+    height: 120px;
+    min-width:400px ;
+    border-radius: 10px;
+    border: 3px solid rgb(176, 146, 72) ;
+
+}
+
+
+.contenedor-tabla-fichas{
+    position: relative;
+    background-color: rgba(40, 110, 46, 0.466);
+    border-radius: 10px;
+}
+
+.agujero-imagen{
+    position: absolute;
+    scale: .2;
+    right: -80px;
+    bottom:-10px;
+    
+
+}

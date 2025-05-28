@@ -1,0 +1,7 @@
+.titulo-principal{
+    font-family: "rdr2";
+    font-size: 90px;
+    color: rgba(150, 65, 26, 0.6);
+    -webkit-text-stroke: 1px rgb(18, 4, 1);
+    margin: auto;
+}

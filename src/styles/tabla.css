@@ -1,0 +1,71 @@
+.rojo{
+    background-color:  #3c0301;
+    
+}
+
+.verde{
+    background-color: rgb(34, 72, 39);
+   
+    
+}
+
+.negro{
+    background-color: #101010;
+}
+.contenedor-reglas-apuesta{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.regla-apuesta{
+    width: 72px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(167, 145, 73);
+    background-color: rgb(32,71,32);
+    background-image: url("https://www.transparenttextures.com/patterns/french-stucco.png");
+    color: rgb(167, 145, 73);
+    font-family: "rdr2";
+    font-weight: 200;
+    font-size: 23px;
+}
+
+.tabla-completa {
+    /* rotate: -90deg; */
+    /* scale: .6; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 280px;
+    background-color: rgb(167, 145, 73);
+    box-shadow: 2px 2px 13px 9px black,3px 3px 15px 7px rgb(167, 145, 73);
+    font-weight: 800;
+  }
+  .contenedor-numero{
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(167, 145, 73);
+    background-image: url("https://www.transparenttextures.com/patterns/french-stucco.png");
+  
+    
+}
+  
+  .encabezado {
+    grid-column: 1 / -1;
+  }
+  
+  .tabla-numeros {
+    display: contents;
+  }
+  
+  .tabla-numeros > * {
+    padding: 10px;
+    text-align: center;
+  }
+  
+ 

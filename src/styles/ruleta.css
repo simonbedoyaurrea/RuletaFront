@@ -1,0 +1,67 @@
+.ruleta{
+    width: 500px;
+    height: 500px;
+    transform: rotate(165deg);
+    filter: brightness(80%) contrast(100%) grayscale(10%) saturate(130%)
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  /* background-color: rgb(161, 118, 64); */
+  width: 500px;
+  padding: 10px;
+  gap: 30px;
+  /* background-color: #4d2f00;
+background-image: url("https://www.transparenttextures.com/patterns/football-no-lines.png"); */
+scale: .7;
+}
+
+
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(103, 102, 102);
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  background: radial-gradient(circle at 30% 30%, #232222, #777777);
+  transition: transform 5s ease-out;
+
+}
+
+
+.rulet{
+  position: absolute;
+  z-index: 100;
+  width: 400px;
+  height: 400px;
+  left: 10%;
+  top: 10%;
+  
+}
+.orbit {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed gray;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 100000;
+  left: 10%;
+  top: 10%;
+  transform-style: preserve-3d;
+}
+
+.contenedor-dos{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  perspective: 300px;
+}

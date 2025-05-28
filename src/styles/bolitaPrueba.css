@@ -1,0 +1,75 @@
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 200px;
+    position:relative
+  }
+  
+  
+  
+  .ball {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(103, 102, 102);
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background: radial-gradient(circle at 30% 30%, #232222, #777777);
+    transition: transform 5s ease-out;
+
+  }
+  
+  .input {
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: darkblue;
+  }
+
+  .rulet{
+    position: absolute;
+    z-index: 100;
+    width: 400px;
+    height: 400px;
+    left: 10%;
+    top: 10%;
+  }
+  .orbit {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed gray;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100000;
+    left: 10%;
+    top: 10%;
+    transform-style: preserve-3d;
+  }
+
+  .contenedor-dos{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    perspective: 300px;
+  } */

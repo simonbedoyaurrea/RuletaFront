@@ -1,0 +1,29 @@
+.contenedor-ruleta{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(161, 118, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boton-jugar{
+    background-color: #5a4234;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    height: 70px;
+    font-family: "rdr2";
+
+}
+
+.boton-eliminar-fichas{
+    background-color: rgb(119, 19, 19);
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    height: 70px;
+    font-family: "rdr2";
+    color: darkgrey;
+}

@@ -1,0 +1,51 @@
+body{
+    /* background: radial-gradient(circle, #c19a6b, #8b5a2b); */
+    background-image: url(./assets/fondo.png);
+    background-size: cover;
+    background-position: center bottom; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    height: 120vh;
+    width: 100%;
+  
+}
+
+*{
+  user-select: none;
+}
+.info-usuario{
+  background-color:rgba(90, 3, 3, 0.544);
+  width: 150px;
+  position: absolute;
+  top: 120px;
+  left: 20%;
+  padding: 20px;
+  border: 1px solid rgb(117, 98, 48);
+  background-image: url("https://www.transparenttextures.com/patterns/french-stucco.png");
+  font-family: 'rdr2';
+
+  p{
+    color: rgb(255, 255, 255);
+    display: flex;
+
+
+  }
+  span{
+    color: rgb(207, 187, 135);
+    
+  }
+  .icono-pegar{
+    color: rgb(207, 187, 135);
+  }
+}
+
+
+@font-face {
+  font-family: 'rdr2'; 
+  src: url('./fonts/chinese-rocks-rg.ttf') format('truetype'); /* Ruta del archivo */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@import "tailwindcss";
+

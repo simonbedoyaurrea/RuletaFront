@@ -1,0 +1,48 @@
+fecha:me gustaria hacerlo antes de abril 20
+
+
+
+hacer la ruleta ideas: movimiento con motion , ver ideas del video de yt
+
+
+implementar el dinero   -- hecho
+tabla de ganadores  --hecho
+limpiar apuestas --hecho
+implementar bien el algoritmo de jugar --hecho
+apuestas multiples (ficha de 5 con ficha de 10 u otro valor) --hecho
+errores como el de las fichas en el tablero   ---hecho
+
+
+-------falta-----
+
+recargar saldo
+usar un servidor y tratar de usar sockets
+apuestas de 4 2 o 3 intersecciones
+
+
+
+-------compara apuestas----  Hecho 
+
+comparar el numero ganador con un for a las apuestas hechas (facil para la primera version sin dobles ni cuadros)
+
+si aparece clave con el numero , se multiplica la ficha con eñ multiplicador de la apuesta
+
+
+
+-----------multiplicadores------
+
+
+apuesta  x35  numero exacto   +apuesta
+apuesta  x17 dos numeros adyacentes    +apuesta
+apuesta  x8 cuatro numeros adyacentes  +apuesta
+
+apuesta x2 docena  + apuesta
+apuesta x2 columna +apuesta
+apuesta x1 mitades + apuesta
+apuesta x1 colores + apuesta
+apuesta x1 paridad + apuesta
+
+
+
+-------tabla----
+

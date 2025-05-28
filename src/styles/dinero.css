@@ -1,0 +1,30 @@
+.contenedor-dinero{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(34, 47, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(167, 145, 73);
+    flex-direction: column;
+    gap: 4px;
+    position: absolute;
+    top: 40px;
+    left:20px;
+    background-image: url("https://www.transparenttextures.com/patterns/french-stucco.png");
+    box-shadow: 2px 2px 6px 9px black,3px 3px 6px 8px rgb(167, 145, 73);
+
+    p{
+        color:rgb(191, 168, 93) ;
+        font-size: 28px;
+        font-family: "rdr2";
+
+    }
+}
+
+.titulo-dinero{
+    font-size: 18px;
+    color: white;
+    font-family: "rdr2";
+
+}
